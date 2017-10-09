@@ -14,7 +14,7 @@ public class TestTaskNightClub {
 			for (int numberDancer = 0; numberDancer < countDancers; numberDancer++) {
 				if (dancers[numberDancer] == trekList[numberOfTrek]) {
 					System.out
-							.println("Персонаж " + numberDancer + " танцует под " + musicStyle[trekList[numberOfTrek]]);
+							.println("Персонаж " + numberDancer + " танцует под стиль" + musicStyle[trekList[numberOfTrek]]);
 				} else {
 					System.out.println("Персонаж " + numberDancer + " пьёт водку в баре");
 				}
